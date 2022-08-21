@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pet care</title>
+    <link rel="icon" type="plain/text" />
+    <link rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+        crossorigin="anonymous"
+    />
+    <style type="text/css">
+      body {
+          color: #3C4556;
+          background-color: #3C4556;
+          font-family: arial;
+          max-width: 500px;
+          margin: 0 auto;
+          padding: 0 16px;
+        
+          display: flex;
+          flex-direction: column;
+          min-height: 100vh;
+        }
+        
+      a {
+        color: white;
+        text-decoration: none;
+      }
+        
+      a:hover {
+        color: #73C6B6;
+      }
+        
+      article {
+        margin-top: 16px;
+      }
+        
+      .main-content {
+        flex-grow: 1;
+      }
+        
+      .box {
+        text-align: justify;
+        background-color: white;
+        border-radius: 20px;
+        border-left: 7px solid #73C6B6;
+        padding: 16px;
+      }
+
+      .box-2 {
+        color: white;
+        text-align: justify;
+        background-color: #212F3D;
+        border-radius: 20px;
+        border-left: 7px solid #73C6B6;
+        padding: 16px;
+      }
+        
+      p {
+        line-height: 25px;
+      }
+        
+      .round-square-md {
+        display: block;
+        margin: auto;
+        width: 30%;
+        height: 35%;
+        border-radius: 5%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-content">
+        <article class="box">
+            <h3><i class="fas fa-cat"></i> Welcome to Pet Care</h3>
+
+            <p>The application that supports you in the care of your pets.</p>
+            <p>This application is subject to terms and conditions, improper use will
+              be sanctioned by the competent authorities. You must be of legal age to use it.</p>
+
+            <p>If you did not request this registration you can ignore this email. You can access
+              the support site in case you require clarification.</p>
+        </article>
+        <article class="box-2">
+          <p>Click in the following link to verify your account:</p>
+          <a href="{{placeholder}}"><i class="fas fa-user-check"></i> Verify my account</a>
+        </article>
+    </div>
+  </body>
+</html>
